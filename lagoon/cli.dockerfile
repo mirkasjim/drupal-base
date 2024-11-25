@@ -1,4 +1,5 @@
 FROM uselagoon/php-8.3-cli-drupal:latest
+FROM uselagoon/python-3.9:latest
 
 COPY composer.* /app/
 COPY assets /app/assets
