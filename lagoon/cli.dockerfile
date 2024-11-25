@@ -11,3 +11,5 @@ RUN mkdir -p -v -m775 /app/web/sites/default/files
 
 # Define where the Drupal Root is located
 ENV WEBROOT=web
+USER root
+
