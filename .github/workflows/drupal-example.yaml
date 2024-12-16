@@ -29,8 +29,6 @@ jobs:
         python rgim.py 
     - name: Checkout
       uses: actions/checkout@v4
-      with:
-        fetch-depth: "0"
 
 #        docker version
 #        docker compose version
